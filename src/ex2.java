@@ -9,15 +9,15 @@ public class ex2 {
         int i=x;
        /* while (i>=y) {
         	i=i-y;
-        	i=Math.
-        }	*/
+                }	*/
         i=Math.floorMod(x, y);
         System.out.println(i);
 	    
         //multipication
        /* int z=0;
         for (i=0;i<x;i++) {
-           z=z+y;     	
+           z=z+y;
+	   System.out.println(z);
         }*/
         i=Math.multiplyExact(x, y);
         System.out.println(i);
